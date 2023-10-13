@@ -24,10 +24,9 @@
   "mixins": [
     "modid.mixins.json"
   ],
-
+  "accessWidener": "languageoptimizer2.aw",
   "depends": {
     "fabricloader": ">=0.14.19",
-    "minecraft": "1.16.1",
-    "fabric": "*"
+    "minecraft": "1.16.1"
   }
 }
