@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "languageoptimizer2",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "language optimizer 2",
+  "description": "language optimizer but 2",
   "authors": [
-    "Me!"
+    "char321"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/qwertyuioplkjhgfd/languageoptimizer2.git"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.char321.languageoptimizer2.LanguageOptimizer"
     ]
   },
   "mixins": [
@@ -28,9 +27,7 @@
 
   "depends": {
     "fabricloader": ">=0.14.19",
-    "minecraft": "1.16.1"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "minecraft": "1.16.1",
+    "fabric": "*"
   }
 }
